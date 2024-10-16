@@ -10,16 +10,16 @@ const Navbar = () => {
                 </h1>
             </div>
             <ul className="flex gap-10 px-10 font-semibold  ">
-                <li className="bg-orange-900 rounded-md px-1">
+                <li className="bg-orange-900 rounded-md px-3">
                     <Link href="/">Home</Link>
                 </li>
-                <li className="bg-orange-900 rounded-md px-1">
+                <li className="bg-orange-900 rounded-md px-3">
                     <Link href="/about">About Us</Link>
                 </li >
-                <li className="bg-orange-900 rounded-md px-1">
+                <li className="bg-orange-900 rounded-md px-3">
                     <Link href="/contact">Contact Us</Link>
                 </li>
-                <li className="bg-orange-900 rounded-md px-1">
+                <li className="bg-orange-900 rounded-md px-3">
                     <Link href="/login">Login</Link>
                 </li>
             </ul>
